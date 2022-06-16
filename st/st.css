@@ -1,0 +1,205 @@
+@font-face {
+	
+	font-family: "font";
+	
+	src: local('../ft/SHOWG'), format('truetype');
+}
+
+#lg
+{
+	height: 70px;
+	margin-top: 10px;
+}
+#topbg
+{
+  
+  min-height: 50vh;
+  background-image: url("../ima/BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+
+}
+
+#logotop
+{
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#down #image
+{
+	text-align: center;
+	width: 50%;
+	margin-top: 50px;
+}
+#down #image img
+{
+	width: 80%;
+}
+
+.imag
+	{
+		height: 300px;
+		width: auto;
+		margin-top: 20%;
+	}
+.imagpre
+	{
+		height: 50px;
+	
+	}
+.imagpresos
+	{
+		height: auto;
+		width: 90%;
+	
+	}
+.container{
+    width: 100%;
+    margin: auto;
+   height: 600px;
+    overflow: hidden;
+    margin-top: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+ 
+
+}
+#dial1
+{
+	font-size:20px;
+	font-family: font;
+}
+.tit
+{
+	text-align: center;
+}
+.box{
+
+    width: 40%;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+   
+    
+}
+.box1{
+
+    width: 40%;
+    height: 100px;
+    margin:10px;
+    box-sizing: border-box;
+
+   
+    
+}
+.botdev{
+	height: 120px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+  
+  
+
+}
+.barcd
+{
+	height: 120px;
+    width: 80%;
+    margin: 5px;
+    overflow: hidden;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+   
+}
+.bgbs
+{
+	width: auto;
+    height: 60px;
+    margin:1px;
+    box-sizing: border-box;
+   
+}
+#boxbot{
+
+    width: 100%;
+    height: 70px;
+    margin:1px;
+    box-sizing: border-box;
+   
+   
+
+}
+.scd
+{
+	margin-top: 20px;
+}
+#demo
+{
+	font-size: 30px;
+	margin-top: 0px;
+	transition: 0.4s;
+ 
+    font-family: sh;
+	color: white;
+}
+#slid
+{
+  
+}
+
+@media screen and (max-width:1200px){
+
+#boxbot{
+
+    width: auto;
+    height: 60px;
+    margin:1px;
+    box-sizing: border-box;
+   
+}
+}
+
+
+@media screen and (max-width:800px){
+    .box{
+    	width: 95%;
+    }
+    #min
+    {
+    	height: 150px;
+    }
+    #min1
+    {
+    	height: 380px;
+    	width: 400px;
+    	
+    }
+
+    .imag
+	{
+    	height: 150px;
+		width: auto;
+		margin-top: 0%;
+
+	}
+	.imagpresos
+	{
+		height: auto;
+		width: 55%;
+		margin-left: 10%;
+	
+	}
+
+    }

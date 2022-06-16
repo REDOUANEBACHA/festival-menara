@@ -1,0 +1,196 @@
+.bar2{
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.bar21{
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.bar01{
+width: 30%;
+height: 400px;
+margin: 5px;
+box-sizing: border-box;
+
+
+}
+.bar001{
+width: 30%;
+height: 400px;
+margin: 5px;
+box-sizing: border-box;
+}
+
+
+.div2bar2{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+.div2bar0{
+width: 30%;
+height: 400px;
+margin: 5px;
+box-sizing: border-box;
+background-color: ;
+}
+
+.divbar2{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;	
+}
+.divbar0{
+width: 40%;
+height: 400px;
+margin: 5px;
+box-sizing: border-box;
+}
+
+.bar0{
+width: 40%;
+height: 400px;
+margin: 5px;
+box-sizing: border-box;
+}
+.bar5
+{
+	width: 30%;
+height: auto;
+margin: 5px;
+box-sizing: border-box;
+
+
+}
+.bar7
+{
+	width: 100%;
+height: 200px;
+margin: 5px;
+box-sizing: border-box;
+
+}
+.barf
+{
+width: 100%;
+height: 100px;
+margin: 5px;
+background-image: url('../ima/imabarf.png');
+box-sizing: border-box;
+text-align: left;
+margin-top: 100px;
+}
+
+
+
+
+.d2
+{
+width: 40%;
+height: 100px;
+box-sizing: border-box;
+margin:40px;
+text-align: center;
+
+}
+
+
+
+
+.mrs
+{
+	width: 60%;
+	height: auto;
+
+}
+.imagbar5
+	{
+    	height: auto;
+		width: 100%;
+		margin-top: 0%;
+
+	}
+.imag
+	{
+    	height: auto;
+		width: 100%;
+		margin-top: 0%;
+
+	}
+@media screen and (max-width:1300px){
+	.bar2
+	{
+	width: 100%;
+	height: 300px;	
+    }
+    .bar0{
+    	width: 95%;
+    	height: 300px;
+    }
+    
+    .imag
+	{
+    	height: 200px;
+		width: auto;
+		margin-top: 0%;
+		flex-direction: row;
+		box-sizing: border-box;
+
+	}
+	.imagbar5
+	{
+    	height: 250px;
+		width: 300px;
+		margin-top: 0%;
+		margin: 0px;
+	}
+	.divbar0{
+width: 100%;
+height: 300px;
+margin: 0px;
+box-sizing: border-box;
+}
+.bar7
+{
+	width: 100%;
+height: 120px;
+margin: 5px;
+box-sizing: border-box;
+}
+.bar01{
+width: 100%;
+height: 200px;
+}
+#bar001{
+width: 400px;
+height: 400px;
+}
+.bar21
+{
+width: 100%;
+height: 1600px;
+}
+.bar5
+{
+	width: 20%;
+height: auto;
+margin: 5px;
+box-sizing: border-box;
+}
+}
